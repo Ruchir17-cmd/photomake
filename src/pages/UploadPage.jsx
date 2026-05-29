@@ -385,8 +385,8 @@ function StepPayment({ form, filePages, onBack, onConfirm, loading }) {
   const price = calcPrice({ filePages, ...form });
 
   // ── Replace with shop's real UPI ID ──
-  const UPI_ID = "photomake@upi";
-  const UPI_NAME = "PhotoMake";
+  const UPI_ID = "ruchiragarwal17@okhdfcbank";
+  const UPI_NAME = "Ruchir";
   const upiLink = `upi://pay?pa=${UPI_ID}&pn=${encodeURIComponent(UPI_NAME)}&am=${price}&cu=INR&tn=PrintOrder`;
 
   const handleConfirm = () => {
